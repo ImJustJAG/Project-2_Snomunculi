@@ -1,9 +1,10 @@
 /* Place CSS styles here */
 
-*{ 
+* { 
     box-sizing: border-box;
 }
 
 img {
-    width: 100%;
+    width:  100%;
+    height: auto; 
 }
