@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #bacccd;
+}
+
+.creation-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.creation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.creation-controls {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.creation-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submit-button {
+    flex-basis: 100%;
+    max-width: 67px;
+    margin: 0 auto;
+}
+
+
 img {
     width:  100%;
     height: auto; 
@@ -11,4 +48,4 @@ img {
  
 html {
     scroll-behavior: smooth;
-}
+} /* remove this rule if the site never auto-scrolls */
